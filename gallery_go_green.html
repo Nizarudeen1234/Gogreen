@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GoGreen Gallery</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #F4F4F4;
+		}
+		header {
+			background-color: #007F5F;
+			color: #FFFFFF;
+			text-align: center;
+			padding: 20px;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		main {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			grid-gap: 20px;
+		}
+		.card {
+			background-color: #FFFFFF;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+			overflow: hidden;
+		}
+		.card img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		}
+		.card h2 {
+			margin: 0;
+			padding: 10px;
+			font-size: 24px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #007F5F;
+			background-color: #FFFFFF;
+			border-bottom: 1px solid #F4F4F4;
+		}
+		.card p {
+			margin: 0;
+			padding: 10px;
+			font-size: 18px;
+			text-align: justify;
+		}
+		.card a {
+			display: block;
+			padding: 10px;
+			font-size: 18px;
+			text-align: center;
+			color: #FFFFFF;
+			background-color: #007F5F;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+		.card a:hover {
+			background-color: #004F3D;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>GoGreen Gallery</h1>
+		<p>Check out our beautiful photos of nature and eco-friendly products!</p>
+	</header>
+	<main>
+		<div class="card">
+			<img src="https://www.allegriniamenities.com/wp-content/uploads/2016/12/gogreen.jpg"alt="Nature Photo">
+			<h2>Nature</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet est vel velit blandit, at euismod massa faucibus.</p>
+			<a href="#">Learn More</a>
+		</div>
+		<div class="card">
+			<img src="https://static.businessworld.in/article/article_extra_large_image/1461460459457shutterstock_296875445.jpg">
+			<h2>Eco-Friendly</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet est vel velit blandit, at euismod massa faucibus.</p>
+			<a href="#">Learn More</a>
+		</div>
+		<div class="card">
+			<img src="https://reallifeoptions.org/wp-content/uploads/2019/06/energy-pic-1.jpg" alt="Nature Photo">
+<h2>Recycling</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet est vel velit blandit, at euismod massa faucibus.</p>
+			<a href="#">Learn More</a>
+		</div>
+		<div class="card">
+			<img src="https://i2.wp.com/opiniojuris.org/wp-content/uploads/Environment.jpg?fit=800%2C600" alt="Eco-Friendly Product">
+			<h2>Sustainability</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet est vel velit blandit, at euismod massa faucibus.</p>
+			<a href="#">Learn More</a>
+		</div>
+		<div class="card">
+			<img src="https://www.electricchoice.com/wp-content/uploads/2015/06/green-energy.jpg" alt="Nature Photo">
+			<h2>Green Energy</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet est vel velit blandit, at euismod massa faucibus.</p>
+			<a href="#">Learn More</a>
+		</div>
+	</main>
+</body>
+</html>
